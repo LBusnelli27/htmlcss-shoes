@@ -79,6 +79,12 @@ section h1 {
     color: rgb(36, 145, 0);
 }
 
+
+a div:hover {
+    background-color: rgb(227, 227, 227);
+    box-shadow: 3px 3px 5px rgb(57, 57, 57);
+}
+
 a:visited {
     color: initial;
 }
