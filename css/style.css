@@ -21,6 +21,7 @@ header div {
     padding: 11px 20px;
     background-color: white;
     border-radius: 50%;
+    z-index: 3;
 }
 
 .button-1 {
@@ -33,4 +34,25 @@ header div {
 
 .button-3 {
     right: 50px;
+}
+
+
+.first-section {
+    position: relative;
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    text-align: center;
+}
+
+.first-section img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.first-section h1 {
+    transform: translateY(850px);
 }
