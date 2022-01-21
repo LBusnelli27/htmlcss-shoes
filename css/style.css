@@ -7,4 +7,30 @@
 
 * {
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+body {
+    background-color: lightblue;
+}
+
+header div {
+    display: inline;
+    position: fixed;
+    margin-top: 40px;
+    padding: 11px 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.button-1 {
+    right: 250px;
+}
+
+.button-2 {
+    right: 150px;
+}
+
+.button-3 {
+    right: 50px;
 }
