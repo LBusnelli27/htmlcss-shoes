@@ -63,18 +63,22 @@ section h1 {
     width: 600px;
 }
 
-.first-section {
+#first-section {
     background-color: red;
 }
 
-.second-section {
+#second-section {
     background-color: rgb(36, 145, 0);
 }
 
-.third-section {
+#third-section {
     background-color: rgb(225, 237, 0);
 }
 
-.third-section h1 {
+#third-section h1 {
     color: rgb(36, 145, 0);
+}
+
+a:visited {
+    color: initial;
 }
