@@ -37,22 +37,32 @@ header div {
 }
 
 
-.first-section {
+section {
     position: relative;
-    background-color: red;
     width: 100vw;
     height: 100vh;
     max-width: 100%;
     text-align: center;
 }
 
-.first-section img{
+section img{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.first-section h1 {
+section h1 {
     transform: translateY(850px);
+    color: rgb(255, 234, 0);
+    font-size: 3em;
+    word-spacing: 20px;
+    text-transform: uppercase;
+
+    margin: 0 auto;
+    width: 600px;
+}
+
+.first-section {
+    background-color: red;
 }
