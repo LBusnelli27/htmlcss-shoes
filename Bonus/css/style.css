@@ -1,0 +1,80 @@
+/* ? RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+body {
+    background-color: lightblue;
+}
+
+header div {
+    display: inline;
+    position: fixed;
+    margin-top: 40px;
+    padding: 11px 20px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.button-1 {
+    right: 250px;
+}
+
+.button-2 {
+    right: 150px;
+}
+
+.button-3 {
+    right: 50px;
+}
+
+
+section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    text-align: center;
+}
+
+section img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section h1 {
+    transform: translateY(850px);
+    color: rgb(255, 234, 0);
+    font-size: 3em;
+    word-spacing: 20px;
+    text-transform: uppercase;
+
+    margin: 0 auto;
+    width: 600px;
+}
+
+.first-section {
+    background-color: red;
+}
+
+.second-section {
+    background-color: rgb(36, 145, 0);
+}
+
+.third-section {
+    background-color: rgb(225, 237, 0);
+}
+
+.third-section h1 {
+    color: rgb(36, 145, 0);
+}
