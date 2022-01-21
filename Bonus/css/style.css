@@ -90,6 +90,6 @@ a:visited {
 }
 
 section img:hover {
-    transform: rotate(0.4turn);
-    transition: 3s ease-in-out;
+    transform: rotate(0.3turn);
+    transition: 3s;
 }
