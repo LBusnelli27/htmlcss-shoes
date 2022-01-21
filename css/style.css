@@ -66,3 +66,15 @@ section h1 {
 .first-section {
     background-color: red;
 }
+
+.second-section {
+    background-color: rgb(36, 145, 0);
+}
+
+.third-section {
+    background-color: rgb(225, 237, 0);
+}
+
+.third-section h1 {
+    color: rgb(36, 145, 0);
+}
