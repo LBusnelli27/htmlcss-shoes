@@ -88,3 +88,8 @@ a div:hover {
 a:visited {
     color: initial;
 }
+
+section img:hover {
+    transform: rotate(0.4turn);
+    transition: 3s ease-in-out;
+}
