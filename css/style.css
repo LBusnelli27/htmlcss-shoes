@@ -15,11 +15,13 @@ body {
 }
 
 header div {
-    display: inline;
+    display: inline-block;
     position: fixed;
     margin-top: 40px;
-    padding: 11px 20px;
     background-color: white;
+    text-align: center;
+    line-height: 50px;
+    width: 50px;
     border-radius: 50%;
     z-index: 3;
 }
