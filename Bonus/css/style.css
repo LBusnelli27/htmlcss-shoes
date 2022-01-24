@@ -10,6 +10,10 @@
     font-weight: 700;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: lightblue;
 }
